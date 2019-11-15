@@ -1,2 +1,2 @@
-# htmlcss-template
-A basic and organized template for writing HTML and CSS.
+# htmlcss-youtube
+A simple replica of the YouTube video player. No real interation has been added.
