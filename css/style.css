@@ -35,30 +35,23 @@
 }
 
 .wrapper {
-  /* visibility: hidden; */
-}
-.wrapper:hover {
-  /* visibility: visible; */
-}
-
-.player {
   position: absolute;
   width: 100%;
   height: 8%;
   min-height: 40px;
   left: 0;
   bottom: 0;
+}
+
+.player {
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   border-top: 3px solid red;
-  /* z-index: 5; */
-  /* visibility: hidden; */
-  /* display: none; */
+  visibility: hidden;
 }
-.player:hover {
-  background-color: rgba(0, 0, 0, 1);
-  /* z-index: 999; */
-  /* visibility: visible; */
-  /* display: block; */
+.wrapper:hover > .player {
+  visibility: visible;
 }
 
 .button {
@@ -70,7 +63,7 @@
   color: white;
 }
 .button > i {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .button > i:hover {
   color: red;
